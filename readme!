@@ -1,0 +1,45 @@
+Functionalities{
+                 -ASCII Graphics Display: The graphical interface is capable of displaying ASCII graphics, allowing the visual presentation of information.
+
+                 -Operation Mode Selection: The user can select between different operation modes depending on the underlying program.
+
+                 -Brightness Transitions: The interface offers brightness transitions using asterisks, adding a dynamic visual element.
+
+                 -Screen Cleaning: You can clean the console screen to keep the interface clean and organized.
+
+                 -Friendly Finishing: Before closing, the interface displays finishing messages for a more friendly user experience.
+  }
+
+
+Prerequisites{
+                 -Windows Operating System: The interface is only compatible with Windows operating systems due to its dependency on the Windows.h library.
+
+                 -C++ Compiler: A C++ compiler is required to compile the source code.
+  }
+
+
+Use{
+                 -Mode Selection: Use the up and down arrow keys to toggle between the displayed operating modes. Press 'q' to confirm selection.
+
+                 -Visualization: Observe the ASCII graphics and brightness transitions the interface offers for an enhanced visual experience.
+  }
+
+Code Structure{
+  
+                 -Libraries and Definitions: Inclusion of necessary libraries and definition of constants.
+
+                 -Auxiliary Functions: Implementation of auxiliary functions to clear the screen, generate brightness transitions and display completion messages.
+
+                 -ASCII graphics: Declaration of logos and ASCII graphics used by the interface.
+
+                 -Main Function (main): Implementation of the main function that controls the flow of the interface, including selecting modes and calling the corresponding functions.
+  }
+
+        _ _               _                _                 _ _ _              
+       (_) |             | |              | |               (_) | |             
+ __   ___| |_ ___  _ __  | |__   ___ _ __ | |_ ___ _ __ ___  _| | | ___ _ __    
+ \ \ / / | __/ _ \| '__| | '_ \ / _ \ '_ \| __/ _ \ '_ ` _ \| | | |/ _ \ '__|    
+  \ V /| | |_ (_) | |    | |_) |  __/ | | | |_  __/ | | | | | | | |  __/ |_ _ _ 
+   \_/ |_|\__\___/|_|    |_.__/ \___|_| |_|\__\___|_| |_| |_|_|_|_|\___|_(_)_)_)
+                                                                                
+                                                                                
